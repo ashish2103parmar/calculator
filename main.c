@@ -18,25 +18,25 @@ int main()
 	{
 		case 1:
 
-			result = add_numbers(num1, num2);
+			result = addition(num1, num2);
 
 			break;
 
 		case 2:
 
-			result = sub(num1, num2);
+			result = subtraction(num1, num2);
 
 			break;
 	
 		case 3:
 
-			result = multiply(num1, num2);
+			result = multiplication(num1, num2);
 
 			break;
 		
 		case 4:
 
-			result = divide(num1, num2);
+			result = division(num1, num2);
 
 			break;
 	}

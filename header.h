@@ -1,9 +1,9 @@
 #define HEAD_H
 #include <stdio.h>
 
-int add_numbers(int num1, int num2);
-int sub(int a, int b);
-int divide(int a, int b);
-int multiply(int a, int b);
+int addition(int num1, int num2);
+int subtraction(int a, int b);
+int division(int a, int b);
+int multiplication(int a, int b);
 
 #endif

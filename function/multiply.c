@@ -1,6 +1,6 @@
 #include <header.h>
 
-int multiply(int a, int b)
+int multipilication(int a, int b)
 {
 	return a * b;
 }
