@@ -1,7 +1,7 @@
 SRCS  := $(wildcard *.c)
 TARGET := CALC
 CFLAG := -I include/
-LFLAG := -L lib/
+LFLAG := -L lib/ -larth
 all : ${TARGET} 
 
 ${TARGET}:${SRCS}

@@ -12,7 +12,7 @@ int main()
 		return 0;
 
 	printf("Enter the two values : ");
-	scanf("%d %d", num1, num2);
+	scanf("%d %d", &num1, &num2);
 
 	switch (option)
 	{
