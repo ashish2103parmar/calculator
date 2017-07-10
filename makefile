@@ -1,10 +1,11 @@
 SRCS  := $(wildcard *.c)
 TARGET := CALC
-CFLAG := -I ./
+CFLAG := -I include/
+LFLAG := -L lib/
 all : ${TARGET} 
 
 ${TARGET}:${SRCS}
-	gcc  $^ ${CFLAG}  -o $@ 
+	gcc  $^  ${LFLAG} ${CFLAG}  -o $@ 
 
 clean:
 		rm ${TARGET}
