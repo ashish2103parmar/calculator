@@ -1,0 +1,47 @@
+
+
+int main()
+{
+	int option, num1, num2, result;
+
+	printf("OPTIONS : \n\t1. Add\n\t2. Sub\n\t3. Mul\n\t4. Div\n\t5. Exit\n\n");
+	printf("Enter the option : ");
+	scanf("%d", &option);
+
+	if (option == 5)
+		return 0;
+
+	printf("Enter the two values : ");
+	scanf("%d %d", num1, num2);
+
+	switch (option)
+	{
+		case 1:
+
+			result = add_numbers(num1, num2);
+
+			break;
+
+		case 2:
+
+			result = sub(num1, num2);
+
+			break;
+	
+		case 3:
+
+			result = multiply(num1, num2);
+
+			break;
+		
+		case 4:
+
+			result = divide(num1, num2);
+
+			break;
+	}
+
+	printf("The result is %d\n", result);
+
+	return 0;
+}
