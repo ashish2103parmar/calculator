@@ -19,14 +19,14 @@ int main()
 		case 1:
 
 			result = addition(num1, num2);
-	printf("addition : %d\n", result);
+			printf("addition : %d\n", result);
 
 			break;
 
 		case 2:
 
 			result = subtraction(num1, num2);
-	printf("subtraction : %d\n", result);
+			printf("subtraction : %d\n", result);
 
 			break;
 	
