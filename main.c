@@ -26,6 +26,7 @@ int main()
 		case 2:
 
 			result = subtraction(num1, num2);
+	printf("subtraction : %d\n", result);
 
 			break;
 	
