@@ -31,13 +31,13 @@ int main()
 		case 3:
 
 			result = multiplication(num1, num2);
-
+			printf("Result is %d\n", result);
 			break;
 		
 		case 4:
 
 			result = division(num1, num2);
-
+	
 			break;
 	}
 
