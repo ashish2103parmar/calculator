@@ -19,6 +19,7 @@ int main()
 		case 1:
 
 			result = addition(num1, num2);
+	printf("addition : %d\n", result);
 
 			break;
 
@@ -38,10 +39,11 @@ int main()
 
 			result = division(num1, num2);
 	
+			printf("Result is %d\n", result);
+
 			break;
 	}
 
-	printf("The result is %d\n", result);
 
 	return 0;
 }
